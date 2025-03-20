@@ -1,0 +1,29 @@
+[compute]
+stations = [
+    "NW.STAT1",
+    "NW.STAT2",
+    "NW.STAT3",
+]
+years = [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+]
+channel = "*HZ"
+archive_path = "/data/archive/miniseed"
+product_path = "/data/products"
+
+[visualise]
+starttime = "2020-02-18"
+endtime = "2025-02-18"
+stations = [
+    "NW.STAT1",
+    "NW.STAT2",
+    "NW.STAT3",
+]
+channel = "*HZ"
+product_path = "/data/products"
+filename = "example-availability-plot"

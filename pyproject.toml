@@ -1,0 +1,26 @@
+[project]
+name = "miniseed-availability"
+version = "0.1.0"
+description = "Utility package for computing and visualising availability of miniSEED data stored in an archive."
+readme = "README.md"
+license = {text = "GPLv3"}
+requires-python = ">=3.11"
+authors = [
+    {name = "The AVERT System Team", email = "avert-system@proton.me"}
+]
+maintainers = [
+    {name = "Conor Bacon", email = "cbacon@ldeo.columbia.edu"}
+]
+dependencies = [
+    "matplotlib",
+    "numpy",
+    "obspy",
+    "pandas",
+]
+
+[project.scripts]
+mseed-availability = "miniseed_availability.cli:entrypoint"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
