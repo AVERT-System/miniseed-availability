@@ -9,7 +9,7 @@ authors = [
     {name = "The AVERT System Team", email = "avert-system@proton.me"}
 ]
 maintainers = [
-    {name = "Conor Bacon", email = "cbacon@ldeo.columbia.edu"}
+    {name = "Conor A. Bacon", email = "conor.bacon@norsar.no"}
 ]
 dependencies = [
     "matplotlib",

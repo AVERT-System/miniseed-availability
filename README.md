@@ -16,12 +16,12 @@ We recommend using ``uv``, a fast Python package and project manager, to create 
 ```console
 uv venv --python=3.12
 source .venv/bin/activate
-uv pip install
+uv pip install .
 ```
 
 Usage
 -----
-Once installed, the package is straightforward to use. First, make a copy of the example config file, stored in ``config/example.toml``, and adjust the fields for your local archive. The example is reproduced below:
+Once installed, the package is straightforward to use. First, make a copy of the example config file, stored in ``configs/example.toml``, and adjust the fields for your local archive. The example is reproduced below:
 
 ```console
 [compute]
@@ -75,8 +75,8 @@ This will read in the previously computed availability CSV files for each statio
 Contact
 -------
 Any comments/questions can be directed to:
-* **Conor Bacon** - cbacon [ at ] ldeo.columbia.edu
+* **Conor Bacon** - conor.bacon [ at ] norsar.no
 
 License
 -------
-This simple tool is shared here "as is", with no license. Do with it what you will.
+This package is written and maintained by Conor A. Bacon. It is distributed under the GPLv3 License. Please see the LICENSE file for a complete description of the rights and freedoms that this provides the user.
